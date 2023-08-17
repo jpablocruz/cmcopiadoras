@@ -33,9 +33,7 @@ export const HeroBillboard = styled.div`
 export const HeroImage = styled.div`
   display: flex;
   position: relative;
-  align-items: center;
   background: #dd4141;
-  width: 60%;
   overflow: hidden;
   z-index:5;
   @media screen and (max-width: 768px) {
