@@ -7,6 +7,9 @@ export const Btn = styled.nav`
     align-items: center;
     font-size: 2.18vh;
     padding-top: 2vh;
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
   }
 `;
 

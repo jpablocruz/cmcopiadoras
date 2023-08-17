@@ -26,8 +26,9 @@ export const HeroBillboard = styled.div`
   z-index: 10;
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     padding: 0;
+    text-align: center;
   }
 `;
 export const HeroImage = styled.div`
@@ -35,10 +36,11 @@ export const HeroImage = styled.div`
   position: relative;
   background: #dd4141;
   overflow: hidden;
-  z-index:5;
+  z-index: 5;
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 50vh;
+  }
 `;
 
 export const Image = styled.img`
