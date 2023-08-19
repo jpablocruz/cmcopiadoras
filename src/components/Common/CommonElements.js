@@ -23,6 +23,15 @@ export const BtnLink = styled(Link)`
     text-decoration: none;
   }
 
+  &.InfoSection {
+    border-radius: 1vh;
+    background: #dd4141;
+    padding: 0.5rem 4vw;
+    color: #f4ede4;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
   &.HeroB {
     border: 2px solid #00a4bd;
     border-radius: 1vh;
@@ -34,4 +43,15 @@ export const BtnLink = styled(Link)`
     text-decoration: none;
     margin-left: 1.5rem;
   }
+`;
+
+export const SectionTitle = styled.h1`
+  color: black;
+  font-weight: 600;
+  font-size: 3.5vh;
+`;
+
+export const SectionDesc = styled.h2`
+  font-weight: 400;
+  font-size: 2.5vh;
 `;

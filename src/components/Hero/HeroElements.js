@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: #dd4141;
     padding-top: 4vh;
@@ -24,10 +24,12 @@ export const HeroBillboard = styled.div`
   background: #dd4141;
   width: 40%;
   z-index: 10;
+  flex-wrap: wrap;
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 40vh;
+    height: auto;
     padding: 0;
+    padding-bottom: 5vh;
     text-align: center;
   }
 `;
@@ -37,6 +39,7 @@ export const HeroImage = styled.div`
   background: #dd4141;
   overflow: hidden;
   z-index: 5;
+  flex-wrap: wrap;
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 50vh;
@@ -47,6 +50,7 @@ export const Image = styled.img`
   height: 55vh;
   @media screen and (max-width: 768px) {
     width: 100%;
+    height: auto;
   }
 `;
 
