@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const InfoContainer = styled.div`
   display: flex;
-  //   flex-direction: row-reverse;
   width: 100%;
   background: #f4ede4;
   justify-content: center;
@@ -15,6 +14,24 @@ export const InfoContainer = styled.div`
     width: 100%;
     background: #f4ede4;
     padding-top: 4vh;
+  }
+
+  &.infoB {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: #f4ede4;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    padding-bottom: 5vh;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      background: #f4ede4;
+      padding-top: 4vh;
+    }
   }
 `;
 export const ProductImage = styled.div`
