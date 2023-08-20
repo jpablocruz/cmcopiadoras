@@ -11,6 +11,16 @@ export const Btn = styled.nav`
       justify-content: center;
     }
   }
+  &.CTA {
+    display: flex;
+    align-items: center;
+    font-size: 2.18vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+  }
 `;
 
 export const BtnLink = styled(Link)`
@@ -54,4 +64,11 @@ export const SectionTitle = styled.h1`
 export const SectionDesc = styled.h2`
   font-weight: 400;
   font-size: 2.5vh;
+`;
+
+export const Headline = styled.h1`
+  font-size: 4.5vh;
+  font-weight: 600;
+  color: black;
+  padding: 1rem;
 `;

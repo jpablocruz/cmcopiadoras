@@ -29,7 +29,7 @@ const InfoSection = () => {
       </InfoContainer>
       <InfoContainer className="infoB">
         <ProductImage>Imagen</ProductImage>
-        <ProductInfo>
+        <ProductInfo className="PIB">
           <SectionTitle>Administración de Documentos</SectionTitle>
           <SectionDesc>
             Aumenta tu productividad, almacena tu archivo histórico, asigna

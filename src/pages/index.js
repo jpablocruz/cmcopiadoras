@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Companies from "../components/Companies";
 import InfoSection from "../components/InfoSection";
+import CallToAction from "../components/CallToAction";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ const Home = () => {
       <Hero />
       <Companies />
       <InfoSection />
+      <CallToAction />
     </>
   );
 };

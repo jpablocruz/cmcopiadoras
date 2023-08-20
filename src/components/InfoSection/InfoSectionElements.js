@@ -58,6 +58,21 @@ export const ProductInfo = styled.div`
     width: 100%;
     height: auto;
     padding: 0;
-    text-align: center;
+    text-align: left;
+  }
+
+  &.PIB {
+    align-items: center;
+    padding-top: 3vh;
+    justify-content: center;
+    background: #f4ede4;
+    width: 30%;
+    height: auto;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      text-align: right;
+    }
   }
 `;
