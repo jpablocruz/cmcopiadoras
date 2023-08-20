@@ -2,6 +2,7 @@ import React from "react";
 import {
   InfoContainer,
   ProductImage,
+  Image,
   ProductInfo,
 } from "./InfoSectionElements";
 import {
@@ -11,11 +12,15 @@ import {
   BtnLink,
 } from "../Common/CommonElements";
 
+import copiadoras from "../../images/copiadoras.jpeg";
+
 const InfoSection = () => {
   return (
     <>
       <InfoContainer>
-        <ProductImage>Imagen</ProductImage>
+        <ProductImage>
+          <Image src={copiadoras} />
+        </ProductImage>
         <ProductInfo>
           <SectionTitle>Soluciones de Impresion</SectionTitle>
           <SectionDesc>

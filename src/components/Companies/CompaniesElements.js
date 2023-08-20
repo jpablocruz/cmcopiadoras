@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const CompaniesContainer = styled.div`
   height: 20vh;
-  background: #f4ede4;
+  background: #f1f1f1;
 `;
 
 export const CompanyLogos = styled.div`

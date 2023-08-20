@@ -27,7 +27,6 @@ export const StatsContainer = styled.div`
     gap: 1.5rem;
     width: 100%;
     height: auto;
-    padding: 2rem;
     text-align: center;
   }
 `;

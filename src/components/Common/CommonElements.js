@@ -37,7 +37,7 @@ export const BtnLink = styled(Link)`
     border-radius: 1vh;
     background: #dd4141;
     padding: 0.5rem 4vw;
-    color: #f4ede4;
+    color: #f1f1f1;
     cursor: pointer;
     text-decoration: none;
   }
