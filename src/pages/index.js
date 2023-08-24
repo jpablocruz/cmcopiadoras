@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Companies from "../components/Companies";
 import InfoSection from "../components/InfoSection";
 import CallToAction from "../components/CallToAction";
+import CheckBoard from "../components/CheckBoard";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ const Home = () => {
       <Companies />
       <InfoSection />
       <CallToAction />
+      <CheckBoard />
     </>
   );
 };

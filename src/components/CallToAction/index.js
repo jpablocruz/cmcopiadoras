@@ -1,5 +1,12 @@
 import React from "react";
-import { Headline, SectionDesc, Btn, BtnLink } from "../Common/CommonElements";
+import {
+  Headline,
+  SectionDesc,
+  Btn,
+  BtnLink,
+  StatTitle,
+  StatDesc,
+} from "../Common/CommonElements";
 import {
   CTAContainer,
   Stat,
@@ -20,13 +27,22 @@ const CallToAction = () => {
         </Btn>
         <StatsContainer>
           <Stat>
-            <StatInfo></StatInfo>
+            <StatInfo>
+              <StatTitle>99%</StatTitle>
+              <StatDesc>Hola es una descripcion</StatDesc>
+            </StatInfo>
           </Stat>
           <Stat>
-            <StatInfo></StatInfo>
+            <StatInfo>
+              <StatTitle>99%</StatTitle>
+              <StatDesc>Hola es una descripcion</StatDesc>
+            </StatInfo>
           </Stat>
           <Stat>
-            <StatInfo></StatInfo>
+            <StatInfo>
+              <StatTitle>99%</StatTitle>
+              <StatDesc>Hola es una descripcion</StatDesc>
+            </StatInfo>
           </Stat>
         </StatsContainer>
       </CTAContainer>

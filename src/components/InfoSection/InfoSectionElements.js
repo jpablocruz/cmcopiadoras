@@ -40,7 +40,7 @@ export const ProductImage = styled.div`
   display: flex-column;
   width: 40%;
   flex-wrap: wrap;
-  height: 40vh;
+  height: auto;
   background: #f1f1f1;
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -52,7 +52,8 @@ export const ProductImage = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 25rem;
+  height: auto;
+  width: 100%;
   @media screen and (max-width: 768px) {
     width: 100%;
     height: auto;

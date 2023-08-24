@@ -11,8 +11,7 @@ import {
   Btn,
   BtnLink,
 } from "../Common/CommonElements";
-
-import copiadoras from "../../images/copiadoras.jpeg";
+import copiadoras from "../../images/copiadoras.png";
 
 const InfoSection = () => {
   return (

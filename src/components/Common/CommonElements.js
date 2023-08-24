@@ -11,6 +11,7 @@ export const Btn = styled.nav`
       justify-content: center;
     }
   }
+
   &.CTA {
     display: flex;
     align-items: center;
@@ -59,6 +60,18 @@ export const SectionTitle = styled.h1`
   color: black;
   font-weight: 600;
   font-size: 3.5vh;
+`;
+
+export const StatTitle = styled.h1`
+  color: black;
+  font-weight: 500;
+  font-size: 5vh;
+`;
+
+export const StatDesc = styled.h3`
+  color: black;
+  font-weight: 200;
+  font-size: 2vh;
 `;
 
 export const SectionDesc = styled.h2`
