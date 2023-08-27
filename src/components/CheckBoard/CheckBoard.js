@@ -1,7 +1,6 @@
 import { styled } from "styled-components";
 
 export const BoardContainer = styled.div`
-  background: white;
   width: 100%;
   height: 80vh;
   align-items: center;
@@ -18,14 +17,16 @@ export const BoardContainer = styled.div`
 export const CBoard = styled.div`
   height: 60vh;
   padding: 30px;
-  background: blue;
   width: 70%;
   border-radius: 1vh;
   display: flex;
+  background: #ddd;
   justify-content: space-between;
   @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
     width: 70%;
-    height: 30vh;
+    height: auto;
     padding: 10px;
   }
 `;
@@ -33,27 +34,41 @@ export const CBoard = styled.div`
 export const CheckSection = styled.div`
   display: flex-column;
   width: 70%;
-  background: #add8e6;
   @media screen and (max-width: 768px) {
     width: 100%;
+    height: auto;
   }
 `;
 
 export const CheckTitle = styled.div`
-  background: red;
-  width: 100%;
-  height: 5vh;
+  color: black;
+  font-weight: 700;
+  font-size: 5vh;
+  padding-bottom: 5vh;
 `;
 
 export const CheckRow = styled.div`
-  background: orange;
+  display: flex;
+  gap: 2vw;
+  height: 5vh;
   width: 100%;
+  font-size: 3vh;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const PrinterImage = styled.div`
-  width: 30%;
-  background: green;
+  display: flex;
+  width: 50%;
   @media screen and (max-width: 768px) {
-    display: none;
+    width: 100%;
+    justify-content: center;
   }
+`;
+
+export const Image = styled.img`
+  height: auto;
+  width: 100%;
 `;

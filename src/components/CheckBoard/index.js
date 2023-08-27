@@ -6,21 +6,41 @@ import {
   PrinterImage,
   CheckRow,
   CheckTitle,
+  Image,
 } from "./CheckBoard";
+import printer from "../../images/printerFront.png";
+import { FaRegCheckCircle } from "react-icons/fa";
 
 const CheckBoard = () => {
   return (
     <BoardContainer>
       <CBoard>
         <CheckSection>
-          <CheckTitle>Title</CheckTitle>
-          <CheckRow>info con check</CheckRow>
-          <CheckRow>info con check</CheckRow>
-          <CheckRow>info con check</CheckRow>
-          <CheckRow>info con check</CheckRow>
-          <CheckRow>info con check</CheckRow>
+          <CheckTitle>Destacamos de la competencia</CheckTitle>
+          <CheckRow>
+            <FaRegCheckCircle />
+            Hola primer punto positivo
+          </CheckRow>
+          <CheckRow>
+            <FaRegCheckCircle />
+            Hola primer punto positivo
+          </CheckRow>
+          <CheckRow>
+            <FaRegCheckCircle />
+            Hola primer punto positivo
+          </CheckRow>
+          <CheckRow>
+            <FaRegCheckCircle />
+            Hola primer punto positivo
+          </CheckRow>
+          <CheckRow>
+            <FaRegCheckCircle />
+            Hola primer punto positivo
+          </CheckRow>
         </CheckSection>
-        <PrinterImage>Adios</PrinterImage>
+        <PrinterImage>
+          <Image src={printer} />
+        </PrinterImage>
       </CBoard>
     </BoardContainer>
   );
