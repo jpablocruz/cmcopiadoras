@@ -2,7 +2,8 @@ import { styled } from "styled-components";
 
 export const BoardContainer = styled.div`
   width: 100%;
-  height: 80vh;
+  height: auto;
+  padding-top: 3vh;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -15,7 +16,7 @@ export const BoardContainer = styled.div`
 `;
 
 export const CBoard = styled.div`
-  height: 60vh;
+  height: auto;
   padding: 30px;
   width: 70%;
   border-radius: 1vh;
@@ -32,7 +33,8 @@ export const CBoard = styled.div`
 `;
 
 export const CheckSection = styled.div`
-  display: flex-column;
+  display: flex;
+  flex-direction: column;
   width: 70%;
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -47,16 +49,28 @@ export const CheckTitle = styled.div`
   padding-bottom: 5vh;
 `;
 
+export const CheckSentence = styled.h2`
+  color: black;
+  font-weight: 400;
+  font-size: 3vh;
+  padding-bottom: 2vh;
+`;
+
 export const CheckRow = styled.div`
   display: flex;
   gap: 2vw;
-  height: 5vh;
+  height: auto;
   width: 100%;
   font-size: 3vh;
   @media screen and (max-width: 768px) {
     width: 100%;
     height: auto;
   }
+`;
+
+export const CheckIcon = styled.div`
+  width: auto;
+  height: 2vh;
 `;
 
 export const PrinterImage = styled.div`

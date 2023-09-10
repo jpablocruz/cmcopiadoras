@@ -6,6 +6,8 @@ import {
   PrinterImage,
   CheckRow,
   CheckTitle,
+  CheckSentence,
+  CheckIcon,
   Image,
 } from "./CheckBoard";
 import printer from "../../images/printerFront.png";
@@ -18,24 +20,36 @@ const CheckBoard = () => {
         <CheckSection>
           <CheckTitle>Destacamos de la competencia</CheckTitle>
           <CheckRow>
-            <FaRegCheckCircle />
-            Hola primer punto positivo
+            <CheckIcon>
+              <FaRegCheckCircle />
+            </CheckIcon>
+            <CheckSentence>
+              Soluciones que se ajustan a tus necesidades.
+            </CheckSentence>
           </CheckRow>
           <CheckRow>
-            <FaRegCheckCircle />
-            Hola primer punto positivo
+            <CheckIcon>
+              <FaRegCheckCircle />
+            </CheckIcon>
+            <CheckSentence>Instalación de equipos</CheckSentence>
           </CheckRow>
           <CheckRow>
-            <FaRegCheckCircle />
-            Hola primer punto positivo
+            <CheckIcon>
+              <FaRegCheckCircle />
+            </CheckIcon>
+            <CheckSentence>Hola primer punto positivo</CheckSentence>
           </CheckRow>
           <CheckRow>
-            <FaRegCheckCircle />
-            Hola primer punto positivo
+            <CheckIcon>
+              <FaRegCheckCircle />
+            </CheckIcon>
+            <CheckSentence>Hola primer punto positivo</CheckSentence>
           </CheckRow>
           <CheckRow>
-            <FaRegCheckCircle />
-            Hola primer punto positivo
+            <CheckIcon>
+              <FaRegCheckCircle />
+            </CheckIcon>
+            <CheckSentence>Hola primer punto positivo</CheckSentence>
           </CheckRow>
         </CheckSection>
         <PrinterImage>

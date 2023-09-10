@@ -19,7 +19,7 @@ export const StatsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   background: white;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   align-items: center;
   @media screen and (max-width: 768px) {
