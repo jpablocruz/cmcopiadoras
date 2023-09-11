@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import {
   Nav,
   NavLink,
@@ -12,30 +12,30 @@ import {
 import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ toggle }) => {
-  const location = useLocation();
-  let active = false;
+  // const location = useLocation();
+  // let active = false;
 
-  if (location.pathname === "/") {
-    active = true;
-  }
+  // if (location.pathname === "/") {
+  //   active = true;
+  // }
 
   return (
     <>
       <Nav>
-        <NavLogo className={active ? "home" : "others"} to="/">
+        <NavLogo className={"home"} to="/">
           <h1>CMCopiadoras</h1>
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />
         </MobileIcon>
         <NavMenu>
-          <NavLink className={active ? "home" : "others"} to="/servicios">
+          <NavLink className={"home"} to="/servicios">
             Servicios
           </NavLink>
-          <NavLink className={active ? "home" : "others"} to="/clientes">
+          <NavLink className={"home"} to="/clientes">
             Clientes
           </NavLink>
-          <NavLink className={active ? "home" : "others"} to="/nosotros">
+          <NavLink className={"home"} to="/nosotros">
             Nosotros
           </NavLink>
         </NavMenu>
