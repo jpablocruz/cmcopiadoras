@@ -23,7 +23,7 @@ export const ContactSection = styled.div`
   flex-direction: row;
   width: 100%;
   background: #f1f1f1;
-  height: 40vh;
+  height: auto;
   justify-content: center;
 `;
 
