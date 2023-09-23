@@ -30,18 +30,27 @@ export const ContactSection = styled.div`
 
 export const ContactDirection = styled.div`
   width: 50%;
-  height: 70vh;
+  height: auto;
   background: white;
   border-radius: 1vh;
+  padding-top: 4vh;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 `;
 
 export const GMapsContainer = styled.div`
   height: auto;
 `;
 
+export const Direction = styled.div`
+  display: flex;
+  align-items: center;
+  height: 6vh;
+`;
+
 export const Circle = styled.div`
   background: #8b0000;
-  border: 10px solid red;
+  border: 3px solid red;
   border-radius: 10rem;
   height: 3vh;
   width: 3vh;

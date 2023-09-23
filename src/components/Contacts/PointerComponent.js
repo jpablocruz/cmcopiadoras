@@ -3,9 +3,10 @@ import { Circle } from "./ContactsElements";
 
 const PointerComponent = ({ text }) => {
   return (
-    <Circle>
-      <h1>{text}</h1>
-    </Circle>
+    <>
+      <Circle></Circle>
+      <h4>{text}</h4>
+    </>
   );
 };
 

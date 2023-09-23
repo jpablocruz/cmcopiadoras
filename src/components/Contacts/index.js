@@ -5,6 +5,7 @@ import {
   ContactHeadline,
   ContactSection,
   GMapsContainer,
+  Direction,
 } from "./ContactsElements";
 import PointerComponent from "./PointerComponent";
 import GoogleMapReact from "google-map-react";
@@ -18,7 +19,7 @@ const Contacts = () => {
       lng: -100.30640465642604,
     },
     marker: { lat: 25.684022759799458, lng: -100.30640465642604 },
-    zoom: 11,
+    zoom: 15,
   };
   return (
     <ContactContainer>
@@ -28,7 +29,7 @@ const Contacts = () => {
       <ContactSection>
         <ContactsBlock />
         <ContactDirection>
-          <SectionTitle>Direcciones</SectionTitle>
+          <SectionTitle className="Contacts">Direcciones</SectionTitle>
           <GMapsContainer>
             <div style={{ height: "60vh", width: "100%" }}>
               <GoogleMapReact
@@ -41,11 +42,14 @@ const Contacts = () => {
                 <PointerComponent
                   lat={defaultProps.marker.lat}
                   lng={defaultProps.marker.lng}
-                  text=""
+                  text="CM Copiadoras"
                 />
               </GoogleMapReact>
             </div>
           </GMapsContainer>
+          <Direction>
+            <span>Reforma 802, Centro, 64000 Monterrey, N.L.</span>
+          </Direction>
         </ContactDirection>
       </ContactSection>
     </ContactContainer>
