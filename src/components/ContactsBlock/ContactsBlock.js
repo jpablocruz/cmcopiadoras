@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const RowTable = styled.div`
   display: flex;
-  height: auto;
+  height: 40vh;
   gap: 5vh;
   flex-direction: column;
   width: auto;

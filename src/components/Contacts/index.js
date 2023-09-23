@@ -14,9 +14,10 @@ import { SectionTitle } from "../Common/CommonElements";
 const Contacts = () => {
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: 25.684022759799458,
+      lng: -100.30640465642604,
     },
+    marker: { lat: 25.684022759799458, lng: -100.30640465642604 },
     zoom: 11,
   };
   return (
@@ -29,7 +30,7 @@ const Contacts = () => {
         <ContactDirection>
           <SectionTitle>Direcciones</SectionTitle>
           <GMapsContainer>
-            <div style={{ height: "100vh", width: "100%" }}>
+            <div style={{ height: "60vh", width: "100%" }}>
               <GoogleMapReact
                 bootstrapURLKeys={{
                   key: process.env.REACT_APP_GOOGLE_API_KEY,
@@ -38,9 +39,9 @@ const Contacts = () => {
                 zoom={defaultProps.zoom}
               >
                 <PointerComponent
-                  lat={10.99835602}
-                  lng={77.01502627}
-                  text="My Marker"
+                  lat={defaultProps.marker.lat}
+                  lng={defaultProps.marker.lng}
+                  text=""
                 />
               </GoogleMapReact>
             </div>
