@@ -24,17 +24,23 @@ export const ContactSection = styled.div`
   width: 100%;
   background: #f1f1f1;
   height: auto;
-  justify-content: center;
-`;
-
-export const ContactInfo = styled.div`
-  width: 50%;
-  height: 10vh;
-  background: yellow;
+  justify-content: space-around;
 `;
 
 export const ContactDirection = styled.div`
   width: 50%;
-  height: 10vh;
-  background: yellow;
+  height: auto;
+  background: white;
+  border-radius: 1vh;
+`;
+
+export const GMapsContainer = styled.div`
+  height: auto;
+`;
+
+export const Circle = styled.div`
+  background: red;
+  border-radius: 10rem;
+  height: 5vh;
+  width: 5vh;
 `;
