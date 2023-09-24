@@ -60,6 +60,9 @@ export const SectionTitle = styled.h1`
   color: black;
   font-weight: 600;
   font-size: 3.5vh;
+  &.Contacts {
+    font-weight: 400;
+  }
 `;
 
 export const StatTitle = styled.h1`
