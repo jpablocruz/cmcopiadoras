@@ -26,16 +26,29 @@ export const ContactSection = styled.div`
   height: auto;
   justify-content: center;
   gap: 4vw;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 6vh;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+  }
 `;
 
 export const ContactDirection = styled.div`
-  width: 50%;
+  width: 60%;
   height: auto;
   background: white;
   border-radius: 1vh;
   padding-top: 4vh;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 6vh;
+  }
 `;
 
 export const GMapsContainer = styled.div`
@@ -45,7 +58,10 @@ export const GMapsContainer = styled.div`
 export const Direction = styled.div`
   display: flex;
   align-items: center;
-  height: 6vh;
+  height: 7vh;
+  @media screen and (max-width: 768px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const Circle = styled.div`
